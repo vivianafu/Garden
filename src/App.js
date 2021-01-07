@@ -1,16 +1,12 @@
 import React from 'react'
-import ProdHeader from './components/ProdHeader/ProdHeader'
-import ProdBanner from './components/ProdBanner/ProdBanner'
-import ProdOccation from './components/ProdOccation/ProdOccation'
-import NineGrid from './components/NineGrid/NineGrid'
+import RentProdIndexPage from './pages/RentProdIndex'
+import SaleProdIndex from './pages/SaleProdIndex'
 
 function App() {
   return (
     <>
-      <ProdHeader />
-      <ProdBanner />
-      <ProdOccation />
-      <NineGrid />
+      <SaleProdIndex />
+      {/* <ProdDetail /> */}
     </>
   )
 }
