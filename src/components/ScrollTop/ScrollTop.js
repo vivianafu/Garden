@@ -20,6 +20,7 @@ function ScrollTop() {
   return (
     <>
       <img
+        alt=""
         className="ScrollTop"
         src={devUrl + '/images/main/ScrollTop.jpg'}
         onClick={scrollToTop}

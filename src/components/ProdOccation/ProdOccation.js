@@ -48,7 +48,7 @@ function ProdOccation() {
 
       <div className="section-tilte">
         <div className="title2">
-          <h3>駕馭各種商業場合</h3>
+          <h3>適合各種商業場合</h3>
           <h5 className="mt-1">Business Occasions</h5>
         </div>
       </div>

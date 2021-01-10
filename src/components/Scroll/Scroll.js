@@ -9,6 +9,7 @@ function Scroll() {
   return (
     <>
       <img
+        alt=""
         className="Scroll"
         src={devUrl + '/images/main/Scroll.jpg'}
         onClick={scrollTo}
