@@ -5,8 +5,10 @@ import ProdSearchBar from '../components/ProdSearchBar/ProdSearchBar'
 import ProdSideNav from '../components/ProdSideNav/ProdSideNav'
 import ProdCardMd from '../components/ProdCardMd/ProdCardMd'
 import './RentProdList.scss'
+import { withRouter } from 'react-router-dom'
 
-function RentProdList() {
+function RentProdList(props) {
+  console.log(props)
   return (
     <>
       <ProdHeader />
@@ -24,4 +26,4 @@ function RentProdList() {
   )
 }
 
-export default RentProdList
+export default withRouter(RentProdList)
