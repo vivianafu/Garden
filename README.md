@@ -10,6 +10,11 @@ To open it, you should install:
 - [ReactJS](https://reactjs.org/) 
 - [Node](https://nodejs.org/en/)
 
+## Mongo File
+- create one database named "final_project"
+- create collections named "members"/"products"/"purchases"
+- import the json file (members/products/purchases)
+
 ## Check it out
 
 If you have all the prerequisites installed, you should verify if your MongoDB is up.
