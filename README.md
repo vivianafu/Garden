@@ -1,7 +1,9 @@
 # Garden 植園
 This repository is the result of my practice to develop a website.
 
-For this project,I used (MongoDB, Express.js, React.js, and Node.js).
+It was a group project,and I was responsible for the product pages.
+
+For this project,we used (MongoDB, Express.js, React.js, and Node.js).
 
 ## Install
 To open it, you should install:
