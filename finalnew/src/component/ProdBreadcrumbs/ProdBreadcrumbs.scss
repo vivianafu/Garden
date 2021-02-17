@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap.scss";
+.v-bread {
+  padding: 0 120px;
+  background-color: aquamarine;
+  li {
+    color: #494949;
+  }
+  li.active {
+    color: #494949;
+  }
+  li:hover {
+    color: #a8ae91;
+  }
+}
+.v-link {
+  color: #494949;
+}
+.v-li {
+  &:hover {
+    text-decoration: none;
+    transition: 0.2s;
+    opacity: 0.5;
+  }
+}

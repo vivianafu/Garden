@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+$noto-sans-TC: "Noto sans TC", sans-serif;
+
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $noto-sans-TC;
+}
+$h1-font-size: 16px * 3; //48px
+$h2-font-size: 16px * 1.75; //28px
+$h3-font-size: 16px * 1.5; //24px
+$h4-font-size: 16px * 1.25; //20px
+$h5-font-size: 16px;
+$h6-font-size: 16px * 0.875; //14px
+$h7-font-size: 16px * 0.75; //12px
+.c-intro {
+  width: 100vw;
+  height: 122.2vh;
+  margin-bottom: 5rem;
+  //   padding: 0 120px;
+  position: relative;
+  .c-testback {
+    background-color: #ddd;
+    position: absolute;
+    width: 100vw;
+    height: 120vh;
+    top: 12.2vh;
+    z-index: -1;
+  }
+  .c-10 {
+    margin: 0 auto;
+    padding: 0 120px;
+    max-width: 1440px;
+    height: 12.2vh;
+    // position: relative;
+    .c-about {
+      position: relative;
+      figure {
+        position: absolute;
+        width: 425px;
+        height: 550px;
+        img {
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .c-100 {
+    margin: 0 auto;
+    padding: 0 120px;
+    width: 1440px;
+    height: 110vh;
+    // background-color: #ddd;
+    .c-whoweare {
+      margin: 4.6875rem 0 0 0;
+      padding: 0;
+      width: 22rem;
+      .c-70 {
+        color: #707070;
+        margin: 0 0 3rem 0;
+      }
+      .c-title {
+        line-height: 1.75rem;
+      }
+    }
+    .c-mission {
+      position: absolute;
+      .c-70 {
+        color: #707070;
+        margin: 0 0 3rem 0;
+      }
+      .c-title {
+        line-height: 1.75rem;
+      }
+      .c-gbutton {
+        cursor: pointer;
+        background-color: #6c8650;
+        color: #fff;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 56px;
+      }
+      .c-gbutton:hover {
+        opacity: 0.8;
+        transition: 0.2s;
+      }
+    }
+
+    .c-Ourmission {
+      position: relative;
+      figure {
+        top: -240px;
+        right: 0px;
+        position: absolute;
+        width: 425px;
+        height: 550px;
+        img {
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.c-rbutton:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+@import "~bootstrap/scss/bootstrap.scss";

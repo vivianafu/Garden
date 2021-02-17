@@ -1,0 +1,237 @@
+[{
+  "_id": 1,
+  "member_phone": [
+    "0911222333"
+  ],
+  "order_address": [
+    {
+      "addressCity": "台中市",
+      "addressDistrict": "南區",
+      "addressDetail": "文心路4號",
+      "receiver": "Vivian",
+      "phone": "0911228888",
+      "shipping_method": "宅配",
+      "address_tag": "j1"
+    },
+    {
+      "addressCity": "台中市",
+      "addressDistrict": "南區",
+      "addressDetail": "文心路10號",
+      "receiver": "John",
+      "phone": "0911223365",
+      "shipping_method": "宅配",
+      "address_tag": "j1"
+    }
+  ],
+  "member_creditcard": [
+    {
+      "card_tag": "玉山銀行",
+      "card_holder": "BILL",
+      "creditcard_number": "1547-8547-8598-9961",
+      "creditcard_last4": "9961",
+      "exp_date": "0231",
+      "security_code": "872",
+      "BillingCity": "台中市",
+      "BillingDistrict": "南區",
+      "BillingDetail": "文心路4號",
+      "payment_method": "信用卡"
+    }
+  ],
+  "collections": [
+    {
+      "product_id": 15
+    },
+    {
+      "product_id": 8
+    },
+    {
+      "product_id": null
+    },
+    {
+      "product_id": 9
+    },
+    {
+      "product_id": 5
+    }
+  ],
+  "user_rental": [
+    {
+      "order_rentalnumber": "012021020201",
+      "order_rentaldate": "2021-02-02",
+      "order_rentalprice": "NT$1000",
+      "order_rentalstatus": "租賃中",
+      "prod_rentalpics1": "http://localhost:3000/images/member/Fiddle 琴葉榕大型植栽.jpg",
+      "prod_rentalpics2": "http://localhost:3000/images/member/小天使大型植栽1.jpg"
+    }
+  ],
+  "user_purchase": [
+    {
+      "order_purchasenumber": "012021020201",
+      "order_purchasedate": "2021-02-03",
+      "order_purchaseprice": "NT$2000",
+      "order_purchasestatus": "待出貨",
+      "prod_purchasepics1": "http://localhost:3000/images/member/孔雀1.jpg",
+      "prod_purchasepics2": "http://localhost:3000/images/member/白菲通尼亞草1.jpg"
+    }
+  ],
+  "lesson_booking": [
+    {
+      "lesson_number": "01",
+      "lesson_pics": "http://localhost:3000/images/member/仙人掌花圈手作課05.jpg",
+      "lesson_name": "仙人掌花圈手作課",
+      "lesson_date": "2021-02-28",
+      "lesson_time": "15:30-17:30",
+      "lesson_price": "NT$750",
+      "lesson_status": "已預約",
+      "lesson_location": "320桃園市中壢區中大路300號國立中央大學",
+      "lesson_note": "請學員自行攜帶......"
+    }
+  ],
+  "notifications_account": [
+    {
+      "accountnotify_title": "【帳戶通知】",
+      "accountnotify_content": "您在2020年12月5日修改了個人檔案"
+    },
+    {
+      "accountnotify_title": "【帳戶通知】",
+      "accountnotify_content": "您在2020年11月30日收藏了琴葉榕大型植栽"
+    }
+  ],
+  "notifications_orders": [
+    {
+      "orderlistnotify_title": "【訂單通知】",
+      "orderlistnotify_content": "您在2021年2月2日訂購了琴葉榕大型植栽"
+    },
+    {
+      "orderlistnotify_title": "【訂單通知】",
+      "orderlistnotify_content": "您在2021年2月2日訂購了小天使大型植栽"
+    },
+    {
+      "orderlistnotify_title": "【訂單通知】",
+      "orderlistnotify_content": "您在2021年2月2日訂購了小天使蔓綠絨"
+    }
+  ],
+  "notifications_lesson": [
+    {
+      "lessonnotify_title": "【課程通知】",
+      "lessonnotify_content": "您在2020年12月5日預約了仙人掌花圈手作課"
+    }
+  ],
+  "member_account": "clorenzetto0@cmu.edu",
+  "member_name": "Cody",
+  "member_password": "dec9413578",
+  "member_gender": "男",
+  "member_birthdate": "1991-03-03",
+  "member_address": "台中市南區文心路4號",
+  "__v": 21
+},{
+  "_id": 2,
+  "member_phone": [
+    "0911333222"
+  ],
+  "order_address": [
+    {
+      "addressCity": "台南市",
+      "addressDistrict": "安平區",
+      "addressDetail": "永華路二段11號",
+      "receiver": "Sue",
+      "phone": "0944223311",
+      "shipping_method": "宅配",
+      "address_tag": "u2"
+    },
+    {
+      "addressCity": "嘉義市",
+      "addressDistrict": "東區",
+      "addressDetail": "中山路199號",
+      "receiver": "Mary",
+      "phone": "0955114433",
+      "shipping_method": "宅配",
+      "address_tag": "m3"
+    }
+  ],
+  "member_creditcard": [
+    {
+      "card_tag": "台新銀行",
+      "card_holder": "Daryle",
+      "creditcard_number": "6641-1973-8524-0077",
+      "creditcard_last4": "7713",
+      "exp_date": "0264",
+      "security_code": "594",
+      "BillingCity": "新竹市",
+      "BillingDistrict": "東區",
+      "BillingDetail": "食品路69號",
+      "payment_method": "信用卡"
+    }
+  ],
+  "collections": [],
+  "user_rental": [
+    {
+      "order_rentalnumber": "012021020201",
+      "order_rentaldate": "2021-02-02",
+      "order_rentalprice": "NT$1000",
+      "order_rentalstatus": "租賃中",
+      "prod_rentalpics1": "http://localhost:3000/images/member/Fiddle 琴葉榕大型植栽.jpg",
+      "prod_rentalpics2": "http://localhost:3000/images/member/小天使大型植栽1.jpg"
+    }
+  ],
+  "user_purchase": [
+    {
+      "order_purchasenumber": "012021020201",
+      "order_purchasedate": "2021-02-03",
+      "order_purchaseprice": "NT$2000",
+      "order_purchasestatus": "待出貨",
+      "prod_purchasepics1": "http://localhost:3000/images/member/孔雀1.jpg",
+      "prod_purchasepics2": "http://localhost:3000/images/member/白菲通尼亞草1.jpg"
+    }
+  ],
+  "lesson_booking": [
+    {
+      "lesson_number": "01",
+      "lesson_pics": "http://localhost:3000/images/member/仙人掌花圈手作課05.jpg",
+      "lesson_name": "仙人掌花圈手作課",
+      "lesson_date": "2021-02-28",
+      "lesson_time": "15:30-17:30",
+      "lesson_price": "NT$750",
+      "lesson_status": "已預約",
+      "lesson_location": "320桃園市中壢區中大路300號國立中央大學",
+      "lesson_note": "請學員自行攜帶......"
+    }
+  ],
+  "notifications_account": [
+    {
+      "accountnotify_title": "【帳戶通知】",
+      "accountnotify_content": "您在2020年12月5日修改了個人檔案"
+    },
+    {
+      "accountnotify_title": "【帳戶通知】",
+      "accountnotify_content": "您在2020年11月30日收藏了琴葉榕大型植栽"
+    }
+  ],
+  "notifications_orders": [
+    {
+      "orderlistnotify_title": "【訂單通知】",
+      "orderlistnotify_content": "您在2021年2月2日訂購了琴葉榕大型植栽"
+    },
+    {
+      "orderlistnotify_title": "【訂單通知】",
+      "orderlistnotify_content": "您在2021年2月2日訂購了小天使大型植栽"
+    },
+    {
+      "orderlistnotify_title": "【訂單通知】",
+      "orderlistnotify_content": "您在2021年2月2日訂購了小天使蔓綠絨"
+    }
+  ],
+  "notifications_lesson": [
+    {
+      "lessonnotify_title": "【課程通知】",
+      "lessonnotify_content": "您在2020年12月5日預約了仙人掌花圈手作課"
+    }
+  ],
+  "member_account": "dsamworth1@shutterfly.com",
+  "member_name": "Daryle",
+  "member_password": "yle45237561",
+  "member_gender": "不透露",
+  "member_birthdate": "1989-02-21",
+  "member_address": "新竹市東區食品路69號",
+  "__v": 0
+}]
