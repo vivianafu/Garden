@@ -3,7 +3,7 @@
 This repository was the result of my website practice in 2021 Jan.
 
 It was a group project,and I designed the website layouts and composed the part of product pages.
-
+![image](https://github.com/vivianafu/Garden/blob/main/previeww.jpg)
 For this project,we used (MongoDB, Express.js, React.js, and Node.js).
 
 ## Install
